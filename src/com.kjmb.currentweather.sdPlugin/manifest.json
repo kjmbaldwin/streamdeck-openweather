@@ -1,0 +1,42 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon", 
+      "Name": "Current Weather", 
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "UUID": "com.kjmb.currentweather.action"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Kyle Baldwin", 
+  "CodePath": "code.html", 
+  "Description": "Get the current weather in your city", 
+  "Name": "Current Weather", 
+  "Icon": "pluginIcon", 
+  "Category": "Current Weather",
+  "CategoryIcon": "images/category",
+  "URL": "https://github.com/kjmbaldwin/streamdeck-openweather", 
+  "Version": "1.0.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
